@@ -1,0 +1,12 @@
+
+(com/spx/regression/symtom_selection.story)
+Scenario: 
+Given I log in with username sdd2spxar and password sdd2spxar with language de
+When I use the vin SALVR1BG2CH666836 and navigate to the vsoh page
+And click the Service Functions link
+And click the Recommendations link
+And run the 70150 candidate
+And run new activex sequence transportation
+Then finish on Recommendations page
+
+
